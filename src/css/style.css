@@ -13,6 +13,10 @@ body {
     align-items:center;
 }
 
+p{
+    line-height: 1rem;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -105,4 +109,5 @@ tbody tr:nth-child(even) {
 h2 + p {
     color: #b5e288;
 }
+
 
