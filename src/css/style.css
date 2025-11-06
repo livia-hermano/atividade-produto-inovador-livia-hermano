@@ -1,3 +1,108 @@
 * {
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #2e2d2d;
+    padding: 2rem;
+    align-items:center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav a {
+    color: #388b3b;
+    text-decoration: none;
+    padding: 1.3rem; 
+}
+
+a:hover {
+color: #0086048a;
+text-decoration: underline; 
+}
+
+a:active {
+color: rgb(41, 214, 142)
+}
+
+.botao-comprar:hover{
+    color: #0086048a
+}
+
+h1 {
+    color: #003a02;
+    font-size: 2.75rem;
+}
+
+aside a {
+    color: rgb(118, 183, 139); 
+}
+
+section h2, h3{
+    line-height: 3rem;
+}
+
+main > aside{
+    line-height: 3rem; 
+}
+
+input[type="email"] {
+   border: 1px solid #003a02;
+   border-radius: 0.4rem;
+}
+
+.botao-comprar{
+    font-size: 1rem;
+}
+
+#hero img{
+    max-width: 100%;
+    height: 50rem;
+    border-radius: 0.5rem;
+}
+
+#galeria img{
+    max-width: 100%;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+
+table img{
+  max-width: 100%;
+  height: 10rem;
+  border-radius: 0.5rem;
+}
+
+
+#especificacoes table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.8rem;
+}
+
+thead {
+  background-color: #b5e288;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: left;
+  border: 3px solid #2e2d2d;
+}
+
+tbody tr:nth-child(even) {
+  background: #d5fbb2;
+}
+
+h2 + p {
+    color: #b5e288;
+}
+
